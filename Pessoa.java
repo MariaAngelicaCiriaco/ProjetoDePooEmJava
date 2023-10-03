@@ -1,7 +1,7 @@
 public abstract class Pessoa{
     private String nomeCompleto;
     private String cpf;
-    private int idade;
+    protected static int idade;
     private String endereco;
     private String email;
 
