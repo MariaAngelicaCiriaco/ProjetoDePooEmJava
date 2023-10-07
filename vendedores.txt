@@ -1,0 +1,7 @@
+Nome Compelto: Ana
+CPF: 54321
+Idade: 23
+Endereco: Pau dos Ferros
+Email: ana@gmail.com
+Salario:1300.0
+

@@ -1,7 +1,7 @@
 public abstract class Pessoa{
     private String nomeCompleto;
     private String cpf;
-    protected static int idade;
+    private int idade;
     private String endereco;
     private String email;
 
@@ -67,8 +67,11 @@ public abstract class Pessoa{
 
     @Override
     public String toString() {
-        return "Nome Completo: " + nomeCompleto + ", CPF: " + cpf + ", Idade: " + idade + ", Endereço: " + endereco
-                + ", Email: " + email;
+        return "Nome Completo: " + nomeCompleto + " CPF: " + cpf + " Idade: " + idade + " Endereço: " + endereco  + " Email: " + email;
     }
+
+    
+    
+    
 
 }
